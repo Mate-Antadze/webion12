@@ -1,0 +1,921 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html,body{
+    overflow-x: hidden;
+}
+
+.nav-parent{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 0rem;
+}
+
+.left-nav{
+    margin-left: 5%;
+}
+
+.left-nav hr{
+    width: 125px;
+    background-color: black ;
+    margin: 0px;
+}
+
+
+.left-nav h2, .right-nav a{
+    color: white !important;
+}
+
+.left-nav h2 a{
+    text-decoration: none;
+    color: white;
+}
+
+.right-nav{
+    margin-right: 5%;
+}
+
+.right-nav ul li{
+    display: inline;
+    list-style: none;
+}
+
+.right-nav ul  a{
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+nav{
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    
+}
+
+.right-logo{
+    width: 30px;
+    height: 30px;
+}
+
+.carouselSection{
+    position: relative;
+}
+
+
+
+.text-header-parent{
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    text-align: center;
+}
+
+.text-header h1, p{
+    margin-bottom: 2%;
+    color: white;
+}
+
+.text-header h1{
+    font-size: 5rem;
+}
+
+.text-header-button{
+    margin-top: 2rem;
+    padding: 0.7rem 4rem;
+    background-color: white;
+    border-radius: 25px;
+    border: none;
+}
+
+.carousel-item img{
+    height: 100%;
+}
+
+/* columntext sections */
+
+.column-text{
+    margin-top: 10%;
+}
+
+.modern-design h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: #191919;
+    margin: 3rem 0rem;
+    margin-left: 2rem;
+}
+
+.modern-design p{
+    margin-left: 2rem;
+}
+
+.modern-design p{
+    font-size: 16px;
+    color: #191919;
+}
+
+.column-parent{
+    display: grid;
+    grid-template-columns: 0.9fr 0.9fr 0.9fr;
+    grid-gap: 0.5rem;
+}
+
+.column-childs{
+    margin: 0px auto;
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 4.5rem 0rem;
+}
+
+.column-childs svg{
+    margin-left: 3rem;
+    padding: 1rem;
+}
+
+.mian-p{
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    margin-left: 3rem;
+}
+
+.notmain-text{
+   margin-left: 3rem;
+   margin-bottom: 0.5rem;
+   font-size: 14px;
+}
+
+.column-childs h3{
+    margin-left: 3rem;
+    padding-bottom:1rem;
+    
+}
+
+.eshmakisPakrishka {
+    height:100vh;
+    background-image: url("https://ld-wp73.template-help.com/wordpress/prod_15696/v6/wp-content/uploads/2022/08/siyan-ren-14405-unsplash-1-scaled.jpeg");
+    background-position: top center;
+    background-blend-mode:darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    margin-top: 15%;
+}
+
+.forbg{
+    background-color: #000000;
+    opacity: 0.9;
+}
+.pakrishkaParent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    margin: 0px auto;
+}
+
+.pakrishkChilds1{
+    width: 45%;
+    margin: 0px auto;
+}
+
+.pakrishkaChilds1 h1{
+    font-size: 3rem;
+    margin-left: 1.5rem;
+}
+
+.pakrishkaChilds1 p{
+    font-size: 16px;
+    margin-left: 1.5rem;
+    margin-top: 2.5rem;
+}
+
+.pakrishkaChilds2{
+    width: 45%;
+    margin: 0px auto;
+}
+
+.oldman{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.oldman img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 2rem;
+}
+
+.biggerP{
+    font-size: 20px;
+}
+
+
+.pakrishkaChilds2 form{
+    margin-top: 1.5rem ;
+    text-align: center;
+}
+
+
+.pakrishkaChilds2 form button{
+    padding: 0.5rem 1.5rem;
+    background-color: white;
+    border-radius: 25px;
+    color: black;
+
+}
+
+.pakrishkaChilds2 form button:hover{
+    padding: 0.5rem 1.5rem;
+    background-color: rgb(3, 2, 2);
+    border-radius: 25px;
+    color: rgb(255, 255, 255);
+    transition: 0.5s ease;
+}
+
+
+
+/* teamParent Seceton */
+
+
+.teamParentSection{
+    width: 100%;
+    margin-top: 10%;
+}
+
+.teamParent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin-top: 10%;
+    margin: 0px auto;
+}
+
+.team-left{
+    width: 60%;
+    margin: 0px auto;
+}
+
+.team-left img{
+    width: 82.4%;
+    height: 100%;
+}
+
+.team-right{
+    width: 40%;
+    margin: 0px auto;
+    margin-top: 40px;
+}
+
+
+.team-right h1{
+    font-size: 3rem;
+    margin-top: 48pxrem;
+    padding-bottom: 40px;
+}
+.team-right p{
+    font-size: 1rem;
+    color: black;
+}
+
+.testimonials{
+    display: flex;
+    align-items: center;
+}
+
+.testimonials svg{
+    margin-right: 1.5rem;
+}
+
+.differentP{
+    margin: 1rem 0rem;
+    margin-left: 3.2rem;
+}
+
+.team-right .differentP{
+    font-size: 14px;
+}
+
+
+/* amazing Section */
+
+.amazing-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.amazing-left{
+    width: 50%;
+}
+
+.amazing-right{
+    width: 50%;
+}
+
+
+.amazing-right form{
+    width: 100%;
+    text-align: end;
+}
+
+.amazing{
+    margin-top: 5%;
+}
+
+.amazing h1{
+    margin-bottom: 3rem;
+    margin-left: 3rem;
+}
+
+.amazing-left{
+    margin-left: 3rem;
+}
+
+
+.amazing-right form button{
+    padding: 0.6rem 3rem;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    border: none;
+    margin-right: 5rem;
+    margin-bottom: 1rem;
+}
+
+.amazing-right form button:hover{
+    padding: 0.6rem 3rem;
+    background-color: rgb(251, 251, 251);
+    color: rgb(0, 0, 0);
+    border-radius: 25px;
+    border: 1px black solid;
+    margin-bottom: 1rem;
+}
+
+.imagegrid{
+    width: 100%;
+    margin-top: 10%;
+}
+
+.image-grid-parent{
+    width: 100%;
+}
+
+.image-grid-child{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.image-grid-child img{
+    width: 45%;
+    height: 50%;
+}
+
+.image-grid-child1 {
+    margin-top: 3% ;
+}
+
+.row-columns {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-gap: 2rem;
+}
+
+.image-grid-child1{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1rem;
+}
+
+.big-column{
+    margin: 0rem 2rem;
+}
+
+
+/* workTogether Section */
+
+.work-together{
+    margin-top: 10%;
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://ld-wp73.template-help.com/wordpress/prod_15696/v6/wp-content/uploads/2022/06/home_bg-min.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.work-together-parent{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.work-together-parent h1, p{
+    margin: 2.5rem;
+}
+
+.work-together-parent h1{
+    font-size: 3rem;
+}
+
+.work-together-parent p{
+    font-size: 1rem;
+}
+
+.work-together-parent button{
+    padding: 0.7rem 2.5rem;
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    border: none;
+    margin-top: 1rem;
+}
+
+.work-together-parent button:hover{
+    padding: 0.7rem 2.5rem;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 25px;
+    border: none;
+    margin-top: 1rem;
+}
+
+/* footer Parent */
+
+.main-footer-parent{
+    width: 100%;
+}
+
+.footer-parent{
+    width: 90%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+}
+
+.webion h2 a{
+    text-decoration: none;
+}
+
+.webion p{
+    margin:0px;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+}
+
+.webion hr{
+    width: 125px;
+    background-color: black;
+    padding: 0.5px;
+    margin: 0;
+}
+
+.New-york h3{
+    margin-bottom: 2rem;
+}
+
+.New-york p{
+    margin: 0px;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.icons a img{
+    margin-top: 1rem;
+    width: 30px;
+    height: 30px;
+    padding: 0.3rem;
+}
+
+.contact-page h3, p{
+    margin: 0px;
+}
+
+.contact-page .some{
+    margin-top: 7rem;
+    margin-bottom: 1rem;
+}
+
+.copy{
+    display: flex;
+    margin-top: 5%;
+}
+
+.lasthr{
+    margin: 0rem 3rem;
+    background-color: black;
+}
+
+.copy p{
+    padding-left: 1rem;
+    margin-left: 2rem;
+}
+
+@media only screen and (max-width:1024px){
+    .text-header-parent{
+        width: 100%;
+        position: absolute;
+        top: 25%;
+        text-align: center;
+    }
+
+    .pakrishkaChilds1 h1{
+        font-size: 2.2rem;
+    }
+
+    .pakrishkaChilds1, .pakrishkaChilds2{
+        width: 100%;
+    }
+
+    .pakrishkaChilds2{
+        margin-top: 12%;
+    }
+
+    .team-left img{
+        width: 85%;
+    }
+
+    .team-right{
+        width: 40%;
+        margin: 0px auto;
+        margin-bottom: 0rem; 
+    }
+
+    .row-columns img{
+        width: 300px;
+        height: 200px;
+        margin-left: 0.6rem;
+    }
+}
+
+@media only screen and (max-width:769px){
+    .left-nav{
+        margin-left: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .left-nav h2{
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .right-nav{
+        margin-right: 1rem;
+    }
+
+    .right-nav ul  a{
+        text-decoration: none;
+        margin-right: 0.6rem;
+    }
+
+    .right-logo{
+        width: 20px;
+        height: 20px;
+    }
+
+    .text-header h1{
+        font-size: 3.3rem;
+    }
+
+    .column-parent{
+        margin-top: 15%;
+    }
+
+    .column-childs{
+        padding: 0rem;
+        margin: 0.3rem;
+    }
+    .column-childs p{
+        margin: 1rem;
+    }
+    .column-childs h3{
+        margin: 1rem;
+    }
+    .column-childs svg{
+        margin: 1rem;
+    }
+
+
+
+    .pakrishkaChilds1 h1{
+        font-size: 2.2rem;
+        margin-top: 1.5rem;
+    }
+
+    .pakrishkaChilds1 p{
+        font-size: 14px;
+    }
+
+    .pakrishkaChilds2 p{
+        font-size: 15px;
+    }
+    .biggerP{
+        font-size: 18px !important;
+    }
+
+    .pakrishkaChilds2 h3{
+        font-size: 22px;
+    }
+
+    .pakrishkaChilds2 img{
+        width: 55px;
+        height: 55px;
+    }
+
+    .team-left{
+        width: 50%;
+    }
+
+    .team-left img{
+        width: 90%;
+    }
+    
+    .teamParent{
+        display: flex;
+        justify-content: start;
+        align-items: flex-start;
+    }
+
+    .team-right h1{
+        font-size: 30px;
+        text-align: center;
+        padding: 1.2rem;
+    }
+
+    .team-right h3{
+        font-size: 18px;
+    }
+
+    .team-right p{
+        font-size: 14px;
+    }
+
+    .firstP-team-right{
+        margin-left: 2.5rem;
+
+    }
+
+    .team-right svg{
+        width: 18px;
+        height: 18px;
+    }
+
+    .row-columns img{
+        width: 200px;
+        height: 170px;
+        margin-left: 0.6rem;
+        grid-gap: 3px;
+    }
+
+    .webion p{
+        font-size: 15px;
+    }
+
+    .New-york p{
+        font-size: 15px;
+    }
+
+    .contact-page h2{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width:425px){
+
+    .text-header-parent {
+        display: none;
+    }
+
+    .nav-parent{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-parent{
+        margin-top: 0;
+        padding: 0.5rem 0rem;
+    }
+
+    .left-nav, .right-nav{
+        margin: 0px;
+    }
+
+    .left-nav hr{
+        display: none;
+    }
+
+    .right-nav{
+        display: flex;
+        flex-shrink: var(2);
+    }
+
+    .column-parent{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .column-childs{
+        width: 90%;
+        margin: 5px auto;
+    }
+
+    .pakrishkaParent{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .eshmakisPakrishka{
+        width: 100%;
+    }
+
+    .pakrishkaChilds1{
+        text-align: center;
+    }
+    
+    .pakrishkaChilds1 h1{
+        font-size: 25px;
+        margin-bottom: 1rem;
+        margin-left: 0px;
+    }
+
+    .pakrishkaChilds1 p{
+        font-size: 15px;
+    }
+    .pakrishkaChilds1 p{
+        margin: 0px;
+    }
+
+    .pakrishkaChilds2 .biggerP{
+        display: none;
+    }
+
+    .pakrishkaChilds2{
+        text-align: center;
+    }
+
+    .teamParent{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .team-left{
+        width: 90%;
+    }
+
+    .team-left img{
+        width: 100%;
+    }
+
+    .team-right{
+        width: 90%;
+        text-align: center;
+    }
+
+    .testimonials{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .amazing{
+        margin-top: 5rem;
+        text-align: center;
+    }
+
+    .amazing-parent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+        
+    }
+
+    .amazing-left{
+        width: 100%;
+        margin-bottom:1.5rem;
+        margin: 0px;
+    }
+
+    .amazing h1{
+        margin-left:0 ;
+    }
+
+    .amazing-right{
+        width: 100%;
+    }
+
+    .amazing-right form button{
+        margin: 0px auto;
+        margin-left: 2rem;
+    }
+
+    .amazing form{
+        width: 100%;
+        text-align: center;
+    }
+
+    .image-grid-parent{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+
+    .image-grid-child{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1rem;
+    }
+
+    .image-grid-child img{
+        width: 90%;
+        height: 100%;
+        margin: 0px auto;
+    }
+
+    .image-grid-child1{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1rem;
+    }
+
+    .image-grid-child1 img{
+        width: 91%;
+       height: 100%;
+       margin: 0px auto;
+       margin-left: 0;
+       
+    }
+
+    .big-column{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 0.5rem;
+        margin: 0;
+    }
+
+    .big-column img{
+        width: 91%;
+        height: 100%;
+        text-align: center;
+        margin-top: 0.5rem;
+    }
+
+    .work-together-parent{
+        width: 100%;
+    }
+
+    .work-together-parent h1{
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .work-together-parent p{
+        text-align: center;
+    }
+
+    .footer-parent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        text-align: center;
+    }
+
+    .contact-page{
+        display: none;
+    }
+
+    .webion hr{
+        display: none;
+    }
+
+    .copy{
+        text-align: center;
+    }
+}
+
